@@ -32,5 +32,27 @@ namespace StockManagementSystem
             companyUi.Show();
         }
 
+<<<<<<< HEAD
+=======
+        private void itemSetupLabel_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ItemUi itemUi = new ItemUi();
+            itemUi.Show();            
+        }
+
+        private void stockInLabel_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            StockInUi stockInUi = new StockInUi();
+            stockInUi.Show();
+            
+        }
+
+       
+
+
+       
+>>>>>>> 19f8a0e1443de35af659c3b38201f0f6f34242f0
     }
 }
