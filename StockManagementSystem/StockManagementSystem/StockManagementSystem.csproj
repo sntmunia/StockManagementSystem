@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9269C234-205A-4A2F-9A38-6D3F051B51F5}</ProjectGuid>
+    <ProjectGuid>{464691F9-F165-4E82-9B37-CC75FE535E13}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>StockManagementSystem</RootNamespace>
     <AssemblyName>StockManagementSystem</AssemblyName>
@@ -33,8 +33,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,14 +55,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="BLL\CategoryManager.cs" />
+    <Compile Include="BLL\CompanyManager.cs" />
+    <Compile Include="CategoryUi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="CategoryUi.Designer.cs">
+      <DependentUpon>CategoryUi.cs</DependentUpon>
     </Compile>
+    <Compile Include="CompanyUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompanyUi.Designer.cs">
+      <DependentUpon>CompanyUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuUi.Designer.cs">
+      <DependentUpon>MenuUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Company.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\CategoryRepository.cs" />
+    <Compile Include="Repository\CompanyRepository.cs" />
+    <EmbeddedResource Include="CategoryUi.resx">
+      <DependentUpon>CategoryUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompanyUi.resx">
+      <DependentUpon>CompanyUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuUi.resx">
+      <DependentUpon>MenuUi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +99,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\StockManagementSystem.Models.Category.datasource" />
+    <None Include="Properties\DataSources\StockManagementSystem.Models.Company.datasource" />
+    <None Include="Properties\DataSources\StockManagementSystem.Models.Item.datasource" />
+    <None Include="Properties\DataSources\StockManagementSystem.Models.StockIn.datasource" />
+    <None Include="Properties\DataSources\StockManagementSystem.Models.StockOut.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
