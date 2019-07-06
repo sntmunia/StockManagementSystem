@@ -31,10 +31,16 @@
             this.categorySetupLabel = new System.Windows.Forms.Label();
             this.companySetupLabel = new System.Windows.Forms.Label();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.itemSetupLabel = new System.Windows.Forms.Label();
             this.stockInLabel = new System.Windows.Forms.Label();
 >>>>>>> 19f8a0e1443de35af659c3b38201f0f6f34242f0
+=======
+            this.itemSetupLabel = new System.Windows.Forms.Label();
+            this.stockInLabel = new System.Windows.Forms.Label();
+            this.stockOutLabel = new System.Windows.Forms.Label();
+>>>>>>> e5c6b036e8b6399445362a7c96fb4aa6f4d5e462
             this.SuspendLayout();
             // 
             // categorySetupLabel
@@ -60,7 +66,10 @@
             this.companySetupLabel.Click += new System.EventHandler(this.companySetupLabel_Click);
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> e5c6b036e8b6399445362a7c96fb4aa6f4d5e462
             // itemSetupLabel
             // 
             this.itemSetupLabel.AutoSize = true;
@@ -83,11 +92,26 @@
             this.stockInLabel.Text = "Stock In";
             this.stockInLabel.Click += new System.EventHandler(this.stockInLabel_Click);
             // 
+<<<<<<< HEAD
 >>>>>>> 19f8a0e1443de35af659c3b38201f0f6f34242f0
+=======
+            // stockOutLabel
+            // 
+            this.stockOutLabel.AutoSize = true;
+            this.stockOutLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stockOutLabel.Location = new System.Drawing.Point(177, 264);
+            this.stockOutLabel.Name = "stockOutLabel";
+            this.stockOutLabel.Size = new System.Drawing.Size(65, 16);
+            this.stockOutLabel.TabIndex = 18;
+            this.stockOutLabel.Text = "Stock Out";
+            this.stockOutLabel.Click += new System.EventHandler(this.stockOutLabel_Click);
+            // 
+>>>>>>> e5c6b036e8b6399445362a7c96fb4aa6f4d5e462
             // MenuUi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(599, 470);
 =======
@@ -96,6 +120,12 @@
             this.Controls.Add(this.stockInLabel);
             this.Controls.Add(this.itemSetupLabel);
 >>>>>>> 19f8a0e1443de35af659c3b38201f0f6f34242f0
+=======
+            this.ClientSize = new System.Drawing.Size(599, 470);
+            this.Controls.Add(this.stockOutLabel);
+            this.Controls.Add(this.stockInLabel);
+            this.Controls.Add(this.itemSetupLabel);
+>>>>>>> e5c6b036e8b6399445362a7c96fb4aa6f4d5e462
             this.Controls.Add(this.companySetupLabel);
             this.Controls.Add(this.categorySetupLabel);
             this.Name = "MenuUi";
@@ -109,9 +139,15 @@
         private System.Windows.Forms.Label categorySetupLabel;
         private System.Windows.Forms.Label companySetupLabel;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         private System.Windows.Forms.Label itemSetupLabel;
         private System.Windows.Forms.Label stockInLabel;
 >>>>>>> 19f8a0e1443de35af659c3b38201f0f6f34242f0
+=======
+        private System.Windows.Forms.Label itemSetupLabel;
+        private System.Windows.Forms.Label stockInLabel;
+        private System.Windows.Forms.Label stockOutLabel;
+>>>>>>> e5c6b036e8b6399445362a7c96fb4aa6f4d5e462
     }
 }

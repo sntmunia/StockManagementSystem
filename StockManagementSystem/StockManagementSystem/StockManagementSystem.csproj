@@ -58,10 +58,16 @@
     <Compile Include="BLL\CategoryManager.cs" />
     <Compile Include="BLL\CompanyManager.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <Compile Include="BLL\ItemManager.cs" />
     <Compile Include="BLL\StockInManager.cs" />
 >>>>>>> 19f8a0e1443de35af659c3b38201f0f6f34242f0
+=======
+    <Compile Include="BLL\ItemManager.cs" />
+    <Compile Include="BLL\StockInManager.cs" />
+    <Compile Include="BLL\StockOutManager.cs" />
+>>>>>>> e5c6b036e8b6399445362a7c96fb4aa6f4d5e462
     <Compile Include="CategoryUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,9 +87,12 @@
       <DependentUpon>MenuUi.cs</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Company.cs" />
 =======
+=======
+>>>>>>> e5c6b036e8b6399445362a7c96fb4aa6f4d5e462
     <Compile Include="ItemUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,22 +103,41 @@
     <Compile Include="Models\Company.cs" />
     <Compile Include="Models\Item.cs" />
     <Compile Include="Models\StockIn.cs" />
+<<<<<<< HEAD
 >>>>>>> 19f8a0e1443de35af659c3b38201f0f6f34242f0
+=======
+    <Compile Include="Models\StockOut.cs" />
+>>>>>>> e5c6b036e8b6399445362a7c96fb4aa6f4d5e462
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\CategoryRepository.cs" />
     <Compile Include="Repository\CompanyRepository.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <Compile Include="Repository\ItemRepository.cs" />
     <Compile Include="Repository\StockInRepository.cs" />
+=======
+    <Compile Include="Repository\ItemRepository.cs" />
+    <Compile Include="Repository\StockInRepository.cs" />
+    <Compile Include="Repository\StockOutRepository.cs" />
+>>>>>>> e5c6b036e8b6399445362a7c96fb4aa6f4d5e462
     <Compile Include="StockInUi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="StockInUi.Designer.cs">
       <DependentUpon>StockInUi.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
 >>>>>>> 19f8a0e1443de35af659c3b38201f0f6f34242f0
+=======
+    <Compile Include="StockOutUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockOutUi.Designer.cs">
+      <DependentUpon>StockOutUi.cs</DependentUpon>
+    </Compile>
+>>>>>>> e5c6b036e8b6399445362a7c96fb4aa6f4d5e462
     <EmbeddedResource Include="CategoryUi.resx">
       <DependentUpon>CategoryUi.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,11 +148,17 @@
       <DependentUpon>MenuUi.cs</DependentUpon>
     </EmbeddedResource>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <EmbeddedResource Include="ItemUi.resx">
       <DependentUpon>ItemUi.cs</DependentUpon>
     </EmbeddedResource>
 >>>>>>> 19f8a0e1443de35af659c3b38201f0f6f34242f0
+=======
+    <EmbeddedResource Include="ItemUi.resx">
+      <DependentUpon>ItemUi.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> e5c6b036e8b6399445362a7c96fb4aa6f4d5e462
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -135,11 +169,20 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <EmbeddedResource Include="StockInUi.resx">
       <DependentUpon>StockInUi.cs</DependentUpon>
     </EmbeddedResource>
 >>>>>>> 19f8a0e1443de35af659c3b38201f0f6f34242f0
+=======
+    <EmbeddedResource Include="StockInUi.resx">
+      <DependentUpon>StockInUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockOutUi.resx">
+      <DependentUpon>StockOutUi.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> e5c6b036e8b6399445362a7c96fb4aa6f4d5e462
     <None Include="packages.config" />
     <None Include="Properties\DataSources\StockManagementSystem.Models.Category.datasource" />
     <None Include="Properties\DataSources\StockManagementSystem.Models.Company.datasource" />

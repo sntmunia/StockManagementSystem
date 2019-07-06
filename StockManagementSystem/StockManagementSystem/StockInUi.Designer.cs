@@ -326,7 +326,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.BackColor = System.Drawing.Color.GreenYellow;
+=======
+>>>>>>> e5c6b036e8b6399445362a7c96fb4aa6f4d5e462
             this.ClientSize = new System.Drawing.Size(569, 488);
             this.Controls.Add(this.MenuButton);
             this.Controls.Add(this.label8);

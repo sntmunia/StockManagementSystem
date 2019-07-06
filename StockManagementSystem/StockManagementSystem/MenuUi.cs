@@ -33,7 +33,10 @@ namespace StockManagementSystem
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> e5c6b036e8b6399445362a7c96fb4aa6f4d5e462
         private void itemSetupLabel_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -49,10 +52,29 @@ namespace StockManagementSystem
             
         }
 
+<<<<<<< HEAD
        
 
 
        
 >>>>>>> 19f8a0e1443de35af659c3b38201f0f6f34242f0
+=======
+        private void stockOutLabel_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            StockOutUi stockOutUi = new StockOutUi();
+            stockOutUi.Show();           
+        }
+
+        private void searchLabel_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void viewLabel_Click(object sender, EventArgs e)
+        {
+           
+        }
+>>>>>>> e5c6b036e8b6399445362a7c96fb4aa6f4d5e462
     }
 }
