@@ -62,19 +62,27 @@
     <Compile Include="BLL\StockInManager.cs" />
     <Compile Include="BLL\StockOutManager.cs" />
     <Compile Include="BLL\ViewManager.cs" />
-    <Compile Include="CategoryUi.cs" />
+    <Compile Include="CategoryUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CategoryUi.Designer.cs">
       <DependentUpon>CategoryUi.cs</DependentUpon>
     </Compile>
-    <Compile Include="CompanyUi.cs" />
+    <Compile Include="CompanyUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CompanyUi.Designer.cs">
       <DependentUpon>CompanyUi.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuUi.cs" />
+    <Compile Include="MenuUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MenuUi.Designer.cs">
       <DependentUpon>MenuUi.cs</DependentUpon>
     </Compile>
-    <Compile Include="ItemUi.cs" />
+    <Compile Include="ItemUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ItemUi.Designer.cs">
       <DependentUpon>ItemUi.cs</DependentUpon>
     </Compile>
@@ -98,11 +106,15 @@
     <Compile Include="SearchUi.Designer.cs">
       <DependentUpon>SearchUi.cs</DependentUpon>
     </Compile>
-    <Compile Include="StockInUi.cs" />
+    <Compile Include="StockInUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="StockInUi.Designer.cs">
       <DependentUpon>StockInUi.cs</DependentUpon>
     </Compile>
-    <Compile Include="StockOutUi.cs" />
+    <Compile Include="StockOutUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="StockOutUi.Designer.cs">
       <DependentUpon>StockOutUi.cs</DependentUpon>
     </Compile>
